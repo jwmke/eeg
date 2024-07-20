@@ -428,7 +428,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "custom_lib"
+    ]
   },
   "meta": {
     "filename": "PCBs.kicad_pro",
