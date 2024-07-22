@@ -6214,12 +6214,6 @@
 		(uuid "0a2eb1ff-6712-49c7-8bad-021524b3a5df")
 	)
 	(junction
-		(at 111.76 -38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a8edec0-bd7a-4dff-8c05-e45e458a4b78")
-	)
-	(junction
 		(at 223.52 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6268,12 +6262,6 @@
 		(uuid "1aa5d5ba-a5de-457b-9cdb-2055489b83cf")
 	)
 	(junction
-		(at 114.3 -43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c525fdb-ef9f-42aa-9f5c-fb0f8513d631")
-	)
-	(junction
 		(at 29.21 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6304,12 +6292,6 @@
 		(uuid "26fdfb52-673c-4eea-8948-69e2399b1380")
 	)
 	(junction
-		(at 140.97 -69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27627735-48ff-440e-969e-495aae3fc9ba")
-	)
-	(junction
 		(at 199.39 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6338,12 +6320,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3173b20d-d729-4285-8ed5-648dda9ea337")
-	)
-	(junction
-		(at 116.84 -48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35bc7add-379c-45b3-91b7-e9e79259a94b")
 	)
 	(junction
 		(at 204.47 58.42)
@@ -6478,12 +6454,6 @@
 		(uuid "5bbcb1d5-a23a-4be5-b455-abc001862de6")
 	)
 	(junction
-		(at 146.05 -69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bc23b7f-ca8e-4547-a41c-5b857f8da411")
-	)
-	(junction
 		(at 67.31 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6544,18 +6514,6 @@
 		(uuid "7209be04-308b-47ea-aa91-05e4ea315770")
 	)
 	(junction
-		(at 151.13 -43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "732f78be-19e5-49e2-a0e8-fc520ab9a797")
-	)
-	(junction
-		(at 156.21 -38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "737d29e5-0769-43c7-9785-cc9967b290d0")
-	)
-	(junction
 		(at 226.06 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6614,18 +6572,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9221dcc5-7029-44c4-a8cc-987dc7fc4a23")
-	)
-	(junction
-		(at 140.97 -53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92551d7a-cec3-4b7c-9ba3-e3d4cc937d78")
-	)
-	(junction
-		(at 119.38 -53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9315d6ab-42e2-4d03-972e-ea2f60624ec3")
 	)
 	(junction
 		(at 22.86 80.01)
@@ -6700,12 +6646,6 @@
 		(uuid "b7a9a1ae-65ad-47f9-bcd3-29e0cdd6232d")
 	)
 	(junction
-		(at 156.21 -69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8ac3086-c66c-47ad-a38c-c8e73097999f")
-	)
-	(junction
 		(at 22.86 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6736,22 +6676,10 @@
 		(uuid "c4291ea3-f4d1-4f7b-ad18-f6f26415a61d")
 	)
 	(junction
-		(at 146.05 -48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c751a465-59ec-4836-97b2-870308cffa8f")
-	)
-	(junction
 		(at 201.93 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7617b47-2450-4ae7-b748-ea7db54491fe")
-	)
-	(junction
-		(at 151.13 -69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbbe7064-cb09-4826-8f13-d3da3fb22fd6")
 	)
 	(junction
 		(at 27.94 57.15)
@@ -7111,16 +7039,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 -69.85) (xy 156.21 -69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10c7a92f-4fd8-4a8a-bf38-24baac09eb6f")
-	)
-	(wire
-		(pts
 			(xy 104.14 176.53) (xy 111.76 176.53)
 		)
 		(stroke
@@ -7148,16 +7066,6 @@
 			(type default)
 		)
 		(uuid "12d7f227-3020-4a45-819f-ffa8262169da")
-	)
-	(wire
-		(pts
-			(xy 146.05 -69.85) (xy 151.13 -69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "131b99f7-4843-490d-b632-77c6b83fa6d1")
 	)
 	(wire
 		(pts
@@ -7278,16 +7186,6 @@
 			(type default)
 		)
 		(uuid "1a9f6a9b-dd18-498d-98f1-9d3ada5ec9ba")
-	)
-	(wire
-		(pts
-			(xy 156.21 -38.1) (xy 156.21 -54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aaffd66-9dd5-4fa9-9f00-90f375408e99")
 	)
 	(wire
 		(pts
@@ -7591,16 +7489,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 -38.1) (xy 156.21 -38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dcc3294-9a27-4c57-ad8b-1ba16f15e013")
-	)
-	(wire
-		(pts
 			(xy 93.98 33.02) (xy 97.79 33.02)
 		)
 		(stroke
@@ -7791,16 +7679,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 -38.1) (xy 111.76 -38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c6b8f21-49ef-4c16-b8df-da859489ce4f")
-	)
-	(wire
-		(pts
 			(xy 201.93 67.31) (xy 204.47 67.31)
 		)
 		(stroke
@@ -7821,16 +7699,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 -43.18) (xy 160.02 -43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f8d218e-8b88-414e-9d48-a8de560b4f7e")
-	)
-	(wire
-		(pts
 			(xy 224.79 53.34) (xy 224.79 49.53)
 		)
 		(stroke
@@ -7838,16 +7706,6 @@
 			(type default)
 		)
 		(uuid "3fc3c11b-1027-4dae-bfeb-53abad378344")
-	)
-	(wire
-		(pts
-			(xy 140.97 -69.85) (xy 146.05 -69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe0cfdd-2d77-4379-8a22-c2199f002e8c")
 	)
 	(wire
 		(pts
@@ -7958,16 +7816,6 @@
 			(type default)
 		)
 		(uuid "4921e376-4d9b-4a39-a56c-4a12e1b5b558")
-	)
-	(wire
-		(pts
-			(xy 119.38 -43.18) (xy 114.3 -43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "492d383e-8c10-4268-9ee7-b29505c207bd")
 	)
 	(wire
 		(pts
@@ -8111,16 +7959,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 -48.26) (xy 146.05 -48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "527b3d08-c993-4e47-8f3b-d3285f4eefe6")
-	)
-	(wire
-		(pts
 			(xy 33.02 82.55) (xy 33.02 85.09)
 		)
 		(stroke
@@ -8168,26 +8006,6 @@
 			(type default)
 		)
 		(uuid "54ea408c-a8d3-4cdc-82ee-5e80cf4034c1")
-	)
-	(wire
-		(pts
-			(xy 119.38 -48.26) (xy 116.84 -48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5574bcc1-7caf-434b-b286-6534b8ba3169")
-	)
-	(wire
-		(pts
-			(xy 106.68 -53.34) (xy 119.38 -53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "565da057-282b-4909-9bd5-76d59e6cbc75")
 	)
 	(wire
 		(pts
@@ -8411,16 +8229,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 -43.18) (xy 114.3 -43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "613bc68a-0aaf-4dea-8153-4e7deffd6bab")
-	)
-	(wire
-		(pts
 			(xy 200.66 138.43) (xy 200.66 144.78)
 		)
 		(stroke
@@ -8458,16 +8266,6 @@
 			(type default)
 		)
 		(uuid "681e3314-4cf3-41a9-a097-e2c07f2f86a7")
-	)
-	(wire
-		(pts
-			(xy 146.05 -48.26) (xy 146.05 -54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "687174a0-2db4-424f-8a96-e78cc16ef4da")
 	)
 	(wire
 		(pts
@@ -8671,16 +8469,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 -53.34) (xy 140.97 -54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77eb2591-fdd4-4838-9816-8639f0ca56e6")
-	)
-	(wire
-		(pts
 			(xy 97.79 22.86) (xy 97.79 25.4)
 		)
 		(stroke
@@ -8698,16 +8486,6 @@
 			(type default)
 		)
 		(uuid "78af0d6f-ccc6-4dd6-b38a-0e286e27e771")
-	)
-	(wire
-		(pts
-			(xy 146.05 -48.26) (xy 160.02 -48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79990ba7-d2cf-4464-b4f3-039de0fcfdf3")
 	)
 	(wire
 		(pts
@@ -8758,16 +8536,6 @@
 			(type default)
 		)
 		(uuid "7c3b9cd3-9cb7-4aac-8a43-c0b860a9d808")
-	)
-	(wire
-		(pts
-			(xy 119.38 -38.1) (xy 111.76 -38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d9a8562-40c9-4bc7-a83e-4e765452a22e")
 	)
 	(wire
 		(pts
@@ -8858,16 +8626,6 @@
 			(type default)
 		)
 		(uuid "873561db-86ac-4294-b058-12d3f632169c")
-	)
-	(wire
-		(pts
-			(xy 106.68 -48.26) (xy 116.84 -48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "874c6e63-c9ae-4fd2-b766-d0b5ffa83010")
 	)
 	(wire
 		(pts
@@ -9041,16 +8799,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 -53.34) (xy 160.02 -53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "920f553c-0026-4471-8f5c-f7e0fbeea119")
-	)
-	(wire
-		(pts
 			(xy 111.76 184.15) (xy 111.76 180.34)
 		)
 		(stroke
@@ -9171,16 +8919,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 -53.34) (xy 140.97 -53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c458553-3744-4350-a663-2c7b2af2c3e1")
-	)
-	(wire
-		(pts
 			(xy 35.56 161.29) (xy 35.56 165.1)
 		)
 		(stroke
@@ -9261,16 +8999,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 -43.18) (xy 151.13 -43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4102343-2942-4e45-8aa9-36fc09d92424")
-	)
-	(wire
-		(pts
 			(xy 148.59 44.45) (xy 148.59 40.64)
 		)
 		(stroke
@@ -9298,16 +9026,6 @@
 			(type default)
 		)
 		(uuid "a5d50de6-a1d0-435b-8278-64487214dd32")
-	)
-	(wire
-		(pts
-			(xy 114.3 -43.18) (xy 114.3 -59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6cbaf41-67b4-44d8-9f86-2c70c86157d5")
 	)
 	(wire
 		(pts
@@ -9511,16 +9229,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 -59.69) (xy 119.38 -53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b13edb44-0783-4a96-872c-9baab44d657c")
-	)
-	(wire
-		(pts
 			(xy 182.88 149.86) (xy 182.88 143.51)
 		)
 		(stroke
@@ -9628,16 +9336,6 @@
 			(type default)
 		)
 		(uuid "b9b469d8-0a9e-4965-bd4a-d487d0c6d8e0")
-	)
-	(wire
-		(pts
-			(xy 156.21 -38.1) (xy 160.02 -38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbb92686-eb26-47b7-b13a-b35f1ac8e699")
 	)
 	(wire
 		(pts
@@ -9758,16 +9456,6 @@
 			(type default)
 		)
 		(uuid "c110e51a-04d1-4145-8def-d016eae68508")
-	)
-	(wire
-		(pts
-			(xy 116.84 -48.26) (xy 116.84 -59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c13db2fe-462b-42e8-a8ed-a26052ecc470")
 	)
 	(wire
 		(pts
@@ -10091,26 +9779,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 -38.1) (xy 111.76 -59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfce018a-3e18-4824-9fe0-b13ebaedf218")
-	)
-	(wire
-		(pts
-			(xy 125.73 -69.85) (xy 140.97 -69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0911802-3d6a-4a1c-b719-a36d36689b3e")
-	)
-	(wire
-		(pts
 			(xy 22.86 163.83) (xy 22.86 173.99)
 		)
 		(stroke
@@ -10341,16 +10009,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 -43.18) (xy 151.13 -54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9a3a8b1-bbb7-4461-9a96-51b72b86e1af")
-	)
-	(wire
-		(pts
 			(xy 246.38 106.68) (xy 246.38 104.14)
 		)
 		(stroke
@@ -10512,28 +10170,6 @@
 		)
 		(uuid "05bf800e-f6d1-424d-b5ce-3722790a0ab8")
 	)
-	(label "I6"
-		(at 106.68 -38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b813fa7-fa11-4224-bd99-197494c43dae")
-	)
-	(label "I7"
-		(at 106.68 -48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c6107cd-3b4b-41bb-8b16-770c891aadd5")
-	)
 	(label "IN7P"
 		(at 71.12 57.15 0)
 		(fields_autoplaced yes)
@@ -10633,28 +10269,6 @@
 		)
 		(uuid "3ab29f51-c170-4b93-9002-9678dd6456cf")
 	)
-	(label "I7"
-		(at 106.68 -43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "497c22c4-9f83-465b-b29d-c115475e6a57")
-	)
-	(label "IN7N"
-		(at 160.02 -38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e4d14f2-6957-4d69-aba9-9e561680af40")
-	)
 	(label "IN8N"
 		(at 71.12 52.07 0)
 		(fields_autoplaced yes)
@@ -10676,17 +10290,6 @@
 			(justify left bottom)
 		)
 		(uuid "6357b889-5a30-413b-a730-73b391e4cb94")
-	)
-	(label "IN7P"
-		(at 160.02 -43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "63b3dfdf-a3fb-472d-81b5-bf6a90ad732e")
 	)
 	(label "IN4P"
 		(at 161.29 109.22 0)
@@ -10731,17 +10334,6 @@
 			(justify left bottom)
 		)
 		(uuid "80124ca3-7241-4838-aa9b-ab701f25a1b8")
-	)
-	(label "IN8N"
-		(at 160.02 -48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "802984ee-b412-4fea-9982-7943803a5d44")
 	)
 	(label "IN5P"
 		(at 71.12 105.41 0)
@@ -10886,17 +10478,6 @@
 		)
 		(uuid "bd262e5c-aa56-491f-b63a-e9d9015b3ead")
 	)
-	(label "I8"
-		(at 106.68 -53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9c6c394-4b82-4b69-a3f6-f46d627fa769")
-	)
 	(label "Bias"
 		(at 171.45 67.31 0)
 		(fields_autoplaced yes)
@@ -11028,17 +10609,6 @@
 			(justify left bottom)
 		)
 		(uuid "f33e0abc-6269-4a88-b95d-7324a2048e1c")
-	)
-	(label "IN8P"
-		(at 160.02 -53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f37c0138-6740-42f4-b866-a8865dae2095")
 	)
 	(label "IN3N"
 		(at 71.12 140.97 0)
@@ -13378,234 +12948,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:CAY16-103J4LF")
-		(at 129.54 -45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "659e4c2b-e81d-47dc-9f52-b8cb33aa1ac2")
-		(property "Reference" "RN4"
-			(at 129.54 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAY16-103J4LF"
-			(at 129.54 -59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAY16-103J4LF:RESCAF80P320X160X60-8N"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75 Ohm ±5% 62.5mW Power Per Element Isolated Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Bourns"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=1382804"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "1206 Bourns"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON STANDARD-8 Bourns"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CAY16-103J4LF/Bourns+-+J.W.+Miller/view-part/?ref=eda"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CAY16-103J4LF/Bourns+-+J.W.+Miller/view-part/?ref=snap"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CAY16-103J4LF"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY-PURCHASE-URL" "https://snapeda.com/shop?store=DigiKey&id=1382804"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=47136&manufacturer=Bourns&part_name=CAY16-103J4LF&search_term=None"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Good"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nResistor, Chip Array,10 Kilohms,62 mW,+ 5%,50 V (Max.) | Bourns CAY16-103J4LF\n"
-			(at 129.54 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "34edccb1-2cfd-43fe-957a-f5182dc2c3a0")
-		)
-		(pin "7"
-			(uuid "df46069f-0718-4ede-ab51-cb4869d2baf7")
-		)
-		(pin "6"
-			(uuid "73c86be6-18b7-432d-b06d-09c183eeed3c")
-		)
-		(pin "5"
-			(uuid "92ac20b0-a254-4285-831d-5f4f5bf8270f")
-		)
-		(pin "1"
-			(uuid "8809544a-cf68-43c3-8cf5-f967601e3f20")
-		)
-		(pin "8"
-			(uuid "71d85a1b-9b96-4ca9-ad78-0528a623c734")
-		)
-		(pin "4"
-			(uuid "f24dc2c1-21a3-4d91-be44-fddf81af7b26")
-		)
-		(pin "2"
-			(uuid "086eb010-09fc-4d80-ba65-85cf2f9a6bda")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
-					(reference "RN4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 129.54 40.64 0)
 		(unit 1)
@@ -13803,195 +13145,6 @@
 			(project "PCBs"
 				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom_lib:W2A41C681KAT2A")
-		(at 148.59 -62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cecacbb-af74-4c86-86f2-d405a40163a9")
-		(property "Reference" "CN4"
-			(at 160.02 -63.5001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "W2A41C681KAT2A"
-			(at 160.02 -60.9601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "W2A41C681KAT2A:CAPCAXE50P210X130X94-8N"
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "AVX"
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n680pF Isolated Capacitor 4 Array 100 V X7R 0508 (1220 Metric)\n"
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0508 AVX"
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/W2A41C681KAT2A/AVX/view-part/?ref=eda"
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/W2A41C681KAT2A/AVX/view-part/?ref=snap"
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "W2A41C681KAT2A"
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "AVX"
-			(at 148.59 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72513241-c4c2-479d-a230-550a3b5a6096")
-		)
-		(pin "2"
-			(uuid "9739a177-c401-42b1-adf1-013232a62856")
-		)
-		(pin "5"
-			(uuid "e0fdf2fe-f302-4d0a-889b-c514901cf64e")
-		)
-		(pin "8"
-			(uuid "3d7c4395-8894-4e14-94de-cc2b9ad6a3e5")
-		)
-		(pin "4"
-			(uuid "b8b38745-ea76-438c-852c-7d3ce6cc23cd")
-		)
-		(pin "6"
-			(uuid "81d292ce-adc8-4427-8402-8a73027c0922")
-		)
-		(pin "3"
-			(uuid "f7cc6a37-887e-458f-8bf6-dc3c63d06a3e")
-		)
-		(pin "7"
-			(uuid "ff38dba4-23ca-44d3-9e90-ea6ae04c26af")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
-					(reference "CN4")
 					(unit 1)
 				)
 			)
@@ -16609,72 +15762,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 -69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4e3e629-57fc-40e2-9ba4-8775726db15e")
-		(property "Reference" "#PWR06"
-			(at 156.21 -76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 -74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 -69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 -69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 -69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "990f9c01-5bc1-4ea1-b0bb-61336f6dccf5")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 148.59 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19121,175 +18208,6 @@
 			(project "PCBs"
 				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TPD4E1B06DCKR_1")
-		(lib_id "custom_lib:TPD4E1B06DCKR")
-		(at 123.19 -63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1ac3481-99e4-4dc0-93ad-12cb8cc659b6")
-		(property "Reference" "U6"
-			(at 115.57 -76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPD4E1B06DCKR"
-			(at 115.57 -73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPD4E1B06DCKR:SOT65P210X110-6N"
-			(at 121.412 -37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 -63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 -63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 142.748 -48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nQuad 0.7-pF, ±5.5-V, ±12-kV ESD protection diode with 0.5-nA max leakage in SOT & SC70 packages\n"
-			(at 122.428 -45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-SC70-6 Texas Instruments"
-			(at 90.678 -49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 130.048 -95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD4E1B06DCKR/Texas+Instruments/view-part/?ref=snap"
-			(at 120.904 -43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TPD4E1B06DCKR"
-			(at 108.966 -92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=46121&manufacturer=Texas Instruments&part_name=TPD4E1B06DCKR&search_term=None"
-			(at 123.952 -34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 133.096 -89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPD4E1B06DCKR/Texas+Instruments/view-part/?ref=eda"
-			(at 122.936 -40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "7c51ad4d-91c7-4edb-bf5f-2222ce40f705")
-		)
-		(pin "1"
-			(uuid "837a07fa-42e3-4caf-86b5-f8316fb73b11")
-		)
-		(pin "4"
-			(uuid "025b8839-4cbf-4a6e-82d0-a58d37b40e64")
-		)
-		(pin "2"
-			(uuid "661a6eeb-ee85-4768-a767-8354a7de5d30")
-		)
-		(pin "3"
-			(uuid "5a4abdbc-307b-46a4-be07-fad5e224df66")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
-					(reference "U6")
 					(unit 1)
 				)
 			)
