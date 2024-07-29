@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "b483312f-be04-4509-a6b6-263dddb82475")
+	(uuid "b936f677-c5b1-4e2b-b817-8a0467e5e81b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "custom_lib:pi_pico"
@@ -1566,7 +1566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87334dba-d105-4b6e-9965-2ca48ac1c00b")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR050"
 			(at 138.43 127 0)
 			(effects
 				(font
@@ -1613,7 +1613,6 @@
 		(pin "1"
 			(uuid "2036c509-6269-4b5a-b385-76f4d8ecfcc1")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -1625,7 +1624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9f178be-da71-4d38-b56d-ac20f88910ba")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR049"
 			(at 153.67 120.65 0)
 			(effects
 				(font
@@ -1673,6 +1672,5 @@
 		(pin "1"
 			(uuid "9b3ff45f-b0a1-433a-b65a-03b5d8fb0293")
 		)
-		(instances)
 	)
 )
