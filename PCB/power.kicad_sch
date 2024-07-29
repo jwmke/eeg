@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "cf722fb7-deda-497f-b6e6-e68f4f8fe8a3")
+	(uuid "3ce91ed2-0dc7-4fb3-9cc5-c0e8f11102c8")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -419,311 +419,6 @@
 				)
 			)
 		)
-		(symbol "custom_lib:LM2664M6"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -4.7761 12.3722 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LM2664M6"
-				(at -3.7106 -21.7555 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LM2664M6:SOT95P300X120-6N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n1.8-V to 5.5-VIN switched capacitor voltage inverter\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "SOT-23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "LM2664M6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOT-23-6 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "OC_FARNELL" "9779671"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM2664M6/NOPB/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "LM2664M6/NOPB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER" "NATIONAL SEMICONDUCTOR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "OC_NEWARK" "-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LM2664M6/NOPB/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "LM2664M6_0_0"
-				(rectangle
-					(start -12.7 10.16)
-					(end 0 -6.35)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 -3.81 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "CAP-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 7.62 180)
-					(length 5.08)
-					(name "~SD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -3.81 0)
-					(length 5.08)
-					(name "CAP+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "custom_lib:TPS61023DRLR"
 			(pin_names
 				(offset 0.254)
@@ -926,1037 +621,6 @@
 				)
 			)
 		)
-		(symbol "custom_lib:TPS72325DBVT"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.7724 11.9262 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TPS72325DBVT"
-				(at -2.8243 -18.676 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TPS72325DBVT:SOT95P280X145-5N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n200-mA, negative, adjustable low-dropout voltage regulator with enable\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "TPS72325DBVT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOT-23-5 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "OC_FARNELL" "-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS72325DBVT/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TPS72325DBVT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=46470&manufacturer=Texas Instruments&part_name=TPS72325DBVT&search_term=tps72325dbvt"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "OC_NEWARK" "87H2933"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TPS72325DBVT/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TPS72325DBVT_0_0"
-				(rectangle
-					(start -12.7 10.16)
-					(end 0 -6.35)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -17.78 -3.81 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 3.81 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "NR"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 7.62 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "custom_lib:TPS73225DBVR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 11.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TPS73225DBVR"
-				(at -12.7 -14.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TPS73225DBVR:SOT95P280X145-5N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n250-mA, high-accuracy, ultra-low-dropout voltage regulator with reverse current protection & enable\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOT-23-5 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS73225DBVR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TPS73225DBVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1237159&manufacturer=Texas Instruments&part_name=TPS73225DBVR&search_term=None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TPS73225DBVR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TPS73225DBVR_0_0"
-				(rectangle
-					(start -12.7 10.16)
-					(end 0 -6.35)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 3.81 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 -3.81 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "NR/FB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 7.62 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "custom_lib:TPS73233DBVT"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 11.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TPS73233DBVT"
-				(at -12.7 -14.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TPS73233DBVT:SOT95P280X145-5N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n250-mA, high-accuracy, ultra-low-dropout voltage regulator with reverse current protection & enable\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOT-23-5 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS73233DBVT/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TPS73233DBVT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=227087&manufacturer=Texas Instruments&part_name=TPS73233DBVT&search_term=tps73233dbvt"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TPS73233DBVT/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TPS73233DBVT_0_0"
-				(rectangle
-					(start -12.7 10.16)
-					(end 0 -6.35)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 3.81 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 -3.81 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "NR/FB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 7.62 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+2V5"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+2V5"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+2V5_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+2V5_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -2077,198 +741,6 @@
 				)
 			)
 		)
-		(symbol "power:-2V5"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-2V5"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-2V5\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-2V5_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-2V5_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
-		(symbol "power:-5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-5V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-5V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2367,146 +839,74 @@
 		)
 	)
 	(junction
-		(at 109.22 58.42)
+		(at 175.26 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0af75b7e-6250-4072-9b16-093c6ae0441c")
 	)
 	(junction
-		(at 90.17 50.8)
+		(at 156.21 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c0f8f3d-2203-4c63-ac18-b544be5e1bde")
 	)
 	(junction
-		(at 232.41 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3209b885-8eb9-4b82-84d7-5b3b94cb238e")
-	)
-	(junction
-		(at 60.96 46.99)
+		(at 127 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bd53422-d702-485d-a529-0d769e206f8d")
 	)
 	(junction
-		(at 104.14 58.42)
+		(at 170.18 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40c1d0c4-b642-4454-a0aa-a85f5800ba5b")
 	)
 	(junction
-		(at 209.55 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4507c4b7-fdd5-449f-b542-3ddb533866ee")
-	)
-	(junction
-		(at 104.14 43.18)
+		(at 170.18 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4adde9a0-4e49-4307-b770-36b452fe1660")
 	)
 	(junction
-		(at 232.41 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bee8afb-cf38-4759-869c-f64e664a8122")
-	)
-	(junction
-		(at 234.95 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54f1e86c-d203-471a-a01a-73af9f663d69")
-	)
-	(junction
-		(at 115.57 43.18)
+		(at 181.61 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fb572c4-e937-4643-bb35-177ac9ab2fd8")
 	)
 	(junction
-		(at 213.36 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b0c49d7-0889-4a34-86ce-a79f59f9e2ef")
-	)
-	(junction
-		(at 203.2 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78554cf1-607c-4f8f-9a81-e87133032a1d")
-	)
-	(junction
-		(at 208.28 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93e62b4e-041b-4d1f-b5fb-a53db56fce26")
-	)
-	(junction
-		(at 209.55 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9685830d-b659-40a0-a269-691f25d0a1e9")
-	)
-	(junction
-		(at 204.47 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f49eb18-2ec0-47b7-b8f8-a7822a7bad3b")
-	)
-	(junction
-		(at 62.23 39.37)
+		(at 128.27 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b962d139-0a42-425b-8d94-cfff92364fb7")
 	)
 	(junction
-		(at 90.17 43.18)
+		(at 156.21 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1008870-bbce-422b-b6b2-00be9e550422")
 	)
 	(junction
-		(at 213.36 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5124d8c-1051-42f0-b7c9-bf88b7e9bba3")
-	)
-	(junction
-		(at 54.61 46.99)
+		(at 120.65 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6ee7964-d65d-4e11-be30-72e670d35a29")
 	)
 	(junction
-		(at 209.55 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e220649f-9240-488d-9d93-bbb4ad1e911d")
-	)
-	(junction
-		(at 64.77 39.37)
+		(at 130.81 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e59c7357-b270-4f4a-9300-03a405cab806")
 	)
 	(junction
-		(at 54.61 39.37)
+		(at 120.65 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e72de290-cd78-401e-9e3c-cc75b2ce3b63")
 	)
-	(junction
-		(at 209.55 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9366a7e-d801-401c-881b-d5f178b99140")
-	)
 	(wire
 		(pts
-			(xy 54.61 46.99) (xy 60.96 46.99)
+			(xy 120.65 102.87) (xy 127 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2516,7 +916,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 39.37) (xy 62.23 43.18)
+			(xy 128.27 95.25) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2526,27 +926,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 113.03) (xy 209.55 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d4ecad3-4840-4da2-be26-52ed9d7a67fa")
-	)
-	(wire
-		(pts
-			(xy 208.28 26.67) (xy 208.28 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a525b3-9401-4ac7-9337-37dc8f5ca940")
-	)
-	(wire
-		(pts
-			(xy 115.57 43.18) (xy 115.57 46.99)
+			(xy 181.61 99.06) (xy 181.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +936,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 31.75) (xy 64.77 39.37)
+			(xy 130.81 87.63) (xy 130.81 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2566,47 +946,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 35.56) (xy 208.28 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e315f4a-2648-45e4-a924-e6e21287e2e4")
-	)
-	(wire
-		(pts
-			(xy 213.36 35.56) (xy 213.36 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "209fb737-4a49-4bc2-9361-ca4c2f4b15d4")
-	)
-	(wire
-		(pts
-			(xy 203.2 78.74) (xy 203.2 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "245047bd-f382-410c-8051-9af6e2a5d505")
-	)
-	(wire
-		(pts
-			(xy 201.93 143.51) (xy 209.55 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a66c982-fdf5-46c6-af06-4eac3f66308f")
-	)
-	(wire
-		(pts
-			(xy 54.61 39.37) (xy 62.23 39.37)
+			(xy 120.65 95.25) (xy 128.27 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2616,37 +956,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 151.13) (xy 209.55 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd202fb-e925-4fe8-8cd5-4cfe7a227980")
-	)
-	(wire
-		(pts
-			(xy 200.66 71.12) (xy 203.2 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3513bd72-6a94-4aab-afdb-2ab949a134cf")
-	)
-	(wire
-		(pts
-			(xy 195.58 135.89) (xy 209.55 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39d6330c-5700-4b34-8332-9957b4989cef")
-	)
-	(wire
-		(pts
-			(xy 104.14 54.61) (xy 104.14 58.42)
+			(xy 170.18 110.49) (xy 170.18 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2656,17 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 105.41) (xy 209.55 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "426e1ef7-bba5-4c90-ba84-8d9e76d3c8eb")
-	)
-	(wire
-		(pts
-			(xy 85.09 31.75) (xy 85.09 39.37)
+			(xy 151.13 87.63) (xy 151.13 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2676,7 +976,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 43.18) (xy 115.57 43.18)
+			(xy 170.18 99.06) (xy 181.61 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2686,17 +986,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 78.74) (xy 203.2 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b09ee4a-1007-4003-b7c1-442b6f9f1bd9")
-	)
-	(wire
-		(pts
-			(xy 104.14 46.99) (xy 104.14 43.18)
+			(xy 170.18 102.87) (xy 170.18 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2706,37 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 151.13) (xy 209.55 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55927e39-e430-4e6e-9250-e1b944bd2d27")
-	)
-	(wire
-		(pts
-			(xy 234.95 135.89) (xy 234.95 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58e39f38-351e-4a28-96c0-576d0626c0d5")
-	)
-	(wire
-		(pts
-			(xy 213.36 50.8) (xy 213.36 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a43c313-1331-475a-8f50-f6142484aba8")
-	)
-	(wire
-		(pts
-			(xy 90.17 43.18) (xy 104.14 43.18)
+			(xy 156.21 99.06) (xy 170.18 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2746,7 +1006,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 58.42) (xy 109.22 59.69)
+			(xy 175.26 114.3) (xy 175.26 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2756,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 43.18) (xy 119.38 43.18)
+			(xy 181.61 99.06) (xy 185.42 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2766,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 50.8) (xy 90.17 50.8)
+			(xy 151.13 106.68) (xy 156.21 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2776,17 +1036,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 60.96) (xy 203.2 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6402e858-8103-4c5d-b201-f74250dc2441")
-	)
-	(wire
-		(pts
-			(xy 115.57 54.61) (xy 115.57 58.42)
+			(xy 181.61 110.49) (xy 181.61 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2796,27 +1046,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 135.89) (xy 209.55 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7160e077-0b4b-46ec-84f1-2070baf73131")
-	)
-	(wire
-		(pts
-			(xy 226.06 66.04) (xy 226.06 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e0008c-7643-41ff-aa17-176aed1a0fee")
-	)
-	(wire
-		(pts
-			(xy 90.17 58.42) (xy 104.14 58.42)
+			(xy 156.21 114.3) (xy 170.18 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2826,17 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 96.52) (xy 204.47 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b63db89-799e-4b55-b998-e6189de53b5f")
-	)
-	(wire
-		(pts
-			(xy 62.23 39.37) (xy 64.77 39.37)
+			(xy 128.27 95.25) (xy 130.81 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2846,7 +1066,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 43.18) (xy 62.23 43.18)
+			(xy 130.81 99.06) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2856,27 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 78.74) (xy 226.06 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc765b4-c57c-4c53-b1d6-1a360d410d56")
-	)
-	(wire
-		(pts
-			(xy 241.3 71.12) (xy 232.41 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8da7e370-2209-4a69-a17c-02b2d17c7978")
-	)
-	(wire
-		(pts
-			(xy 45.72 46.99) (xy 54.61 46.99)
+			(xy 111.76 102.87) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2886,77 +1086,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 50.8) (xy 213.36 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "981a51a3-e732-4d1c-aece-bcbbec803964")
-	)
-	(wire
-		(pts
-			(xy 209.55 120.65) (xy 209.55 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9942ec2c-77ab-4484-bb00-01951b267be8")
-	)
-	(wire
-		(pts
-			(xy 232.41 135.89) (xy 234.95 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a70b91bb-870f-445b-bdfc-32f3ba9125da")
-	)
-	(wire
-		(pts
-			(xy 201.93 120.65) (xy 209.55 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8bfd086-5d2d-4016-9a85-2344ec369dfb")
-	)
-	(wire
-		(pts
-			(xy 234.95 135.89) (xy 240.03 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9dc247c-7686-4aba-bbf7-e50a62356d92")
-	)
-	(wire
-		(pts
-			(xy 226.06 78.74) (xy 226.06 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab10399f-5ba1-42ad-bee7-cd3b84cb6581")
-	)
-	(wire
-		(pts
-			(xy 195.58 105.41) (xy 204.47 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac441b49-6cdf-421a-8c33-daa1df9989b6")
-	)
-	(wire
-		(pts
-			(xy 104.14 58.42) (xy 109.22 58.42)
+			(xy 170.18 114.3) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2966,17 +1096,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 66.04) (xy 203.2 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae4c9aa8-23f3-45b4-9788-85222f3481fb")
-	)
-	(wire
-		(pts
-			(xy 78.74 31.75) (xy 85.09 31.75)
+			(xy 144.78 87.63) (xy 151.13 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2986,47 +1106,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 43.18) (xy 213.36 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b278619d-96b5-40c0-8d82-9459d364acbf")
-	)
-	(wire
-		(pts
-			(xy 209.55 105.41) (xy 209.55 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a5e8f6-30d0-4dd3-9ca7-f4bd6158c09b")
-	)
-	(wire
-		(pts
-			(xy 208.28 35.56) (xy 213.36 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4fd377a-aa39-4802-b175-28724bd57823")
-	)
-	(wire
-		(pts
-			(xy 203.2 60.96) (xy 203.2 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5a7fe26-56ae-47a2-b852-09b2709ef9c8")
-	)
-	(wire
-		(pts
-			(xy 60.96 49.53) (xy 60.96 46.99)
+			(xy 127 105.41) (xy 127 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3036,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 43.18) (xy 90.17 43.18)
+			(xy 151.13 99.06) (xy 156.21 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3046,7 +1126,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 58.42) (xy 115.57 58.42)
+			(xy 175.26 114.3) (xy 181.61 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3056,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 31.75) (xy 64.77 31.75)
+			(xy 137.16 87.63) (xy 130.81 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3066,7 +1146,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 39.37) (xy 54.61 39.37)
+			(xy 111.76 95.25) (xy 120.65 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3076,7 +1156,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 46.99) (xy 85.09 50.8)
+			(xy 151.13 102.87) (xy 151.13 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3086,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 46.99) (xy 64.77 46.99)
+			(xy 127 102.87) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3094,39 +1174,9 @@
 		)
 		(uuid "ec886569-66be-4d6f-9f6a-45d1ef66e3e6")
 	)
-	(wire
-		(pts
-			(xy 226.06 71.12) (xy 232.41 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4cdfeea-ad3f-4cc3-bdad-898b43728c21")
-	)
-	(wire
-		(pts
-			(xy 232.41 105.41) (xy 237.49 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6c087b7-3b4f-4294-89fd-39680a1e4bfc")
-	)
-	(wire
-		(pts
-			(xy 236.22 35.56) (xy 238.76 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb4d6388-725f-41f6-9667-727ed12d3385")
-	)
 	(rectangle
-		(start 36.83 24.13)
-		(end 127 68.58)
+		(start 102.87 80.01)
+		(end 193.04 124.46)
 		(stroke
 			(width 0)
 			(type default)
@@ -3136,19 +1186,9 @@
 		)
 		(uuid ab0ca97e-08a9-4d4e-83a4-99813f89e8cb)
 	)
-	(text "1nF"
+	(text "Battery boost converter\n2.7V to 4.35V input\n5V @ 1.5A output"
 		(exclude_from_sim no)
-		(at 200.406 116.332 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3198aa6a-1908-40c1-8d6e-833c6bd12a59")
-	)
-	(text "Battery boost converter\n2V to 4.2V input\n5V @ 2A output"
-		(exclude_from_sim no)
-		(at 37.592 25.146 0)
+		(at 103.886 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3159,7 +1199,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 45.72 46.99 180)
+		(at 111.76 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3170,8 +1210,8 @@
 		(uuid "204e5fb7-4cf3-4a87-82b8-01d207dcbaa9")
 	)
 	(hierarchical_label "5V"
-		(shape input)
-		(at 119.38 43.18 0)
+		(shape output)
+		(at 185.42 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3183,7 +1223,7 @@
 	)
 	(hierarchical_label "VBATT"
 		(shape input)
-		(at 45.72 39.37 180)
+		(at 111.76 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3194,142 +1234,8 @@
 		(uuid "7e0915a8-5603-4bb5-a041-bda66b80db03")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 194.31 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "042e2e32-cce5-4cfa-afaf-5f2a56b53cdc")
-		(property "Reference" "#PWR018"
-			(at 198.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 190.5 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 194.31 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a684dd11-5c5d-4693-874c-078ee5fdbbaf")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 204.47 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05d23796-e862-43b9-97d2-c8f1bf823d68")
-		(property "Reference" "C24"
-			(at 200.66 97.282 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1µF "
-			(at 202.438 97.282 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.5048 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 204.47 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a6953eb-7d9f-47c4-925b-c4b8a695c303")
-		)
-		(pin "2"
-			(uuid "ee62d1b0-27af-41e8-baaf-855b31d2f6c5")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 104.14 50.8 180)
+		(at 170.18 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3338,7 +1244,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c34216e-2ab2-4831-9f74-362e57ae4b9e")
 		(property "Reference" "C20"
-			(at 107.95 49.5299 0)
+			(at 173.99 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,7 +1253,7 @@
 			)
 		)
 		(property "Value" "22µF "
-			(at 107.95 52.0699 0)
+			(at 173.99 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +1262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 103.1748 46.99 0)
+			(at 169.2148 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +1271,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 50.8 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +1280,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 104.14 50.8 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,10 +1289,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d13c28d-3049-40c9-8946-859aa7250256")
+			(uuid "617935b6-70f5-45e3-b48a-073016ec7c85")
 		)
 		(pin "2"
-			(uuid "281e572b-0a71-436a-a6cf-23cf0759060e")
+			(uuid "26d011bf-0fd4-4781-9a68-c3c5d933ba50")
 		)
 		(instances
 			(project "PCBs"
@@ -3398,176 +1304,8 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:TPS73233DBVT")
-		(at 227.33 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d1e88ae-c66d-4ee8-adaf-d12e7ac49cc6")
-		(property "Reference" "U7"
-			(at 220.98 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS73233DBVT"
-			(at 220.98 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS73233DBVT:SOT95P280X145-5N"
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n250-mA, high-accuracy, ultra-low-dropout voltage regulator with reverse current protection & enable\n"
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-5 Texas Instruments"
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS73233DBVT/Texas+Instruments/view-part/?ref=snap"
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TPS73233DBVT"
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=227087&manufacturer=Texas Instruments&part_name=TPS73233DBVT&search_term=tps73233dbvt"
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS73233DBVT/Texas+Instruments/view-part/?ref=eda"
-			(at 227.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2cd12b9b-7b65-4cd7-9d2a-d680cd286e34")
-		)
-		(pin "5"
-			(uuid "e79c1d86-3e43-43a3-b427-c83db6a1af12")
-		)
-		(pin "3"
-			(uuid "b0615c2d-82ae-4bf3-be31-b574eb19f11a")
-		)
-		(pin "1"
-			(uuid "6aabdfb8-b055-4915-8e17-5cad55108e45")
-		)
-		(pin "4"
-			(uuid "39c21dfb-0a5f-45d4-ae90-120ab81a25e8")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 115.57 43.18 0)
+		(at 181.61 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3575,8 +1313,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "229206ec-fcc9-4ccf-97c2-65aef9c843bb")
-		(property "Reference" "#PWR09"
-			(at 115.57 46.99 0)
+		(property "Reference" "#PWR045"
+			(at 181.61 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +1323,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 115.57 38.1 0)
+			(at 181.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +1331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 43.18 0)
+			(at 181.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +1340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 43.18 0)
+			(at 181.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +1349,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 115.57 43.18 0)
+			(at 181.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,351 +1358,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5aab2432-9a3e-4993-a1bd-48fda4260a0b")
-		)
-		(instances
-			(project ""
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 199.39 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "270ba266-234c-475e-a3cd-fbea723d87bf")
-		(property "Reference" "#PWR021"
-			(at 203.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 195.58 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e1243e2-65cc-419c-8e36-3aa4f359598c")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 234.95 144.78 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32a9e298-af95-4540-a276-143b83932131")
-		(property "Reference" "C28"
-			(at 231.14 140.462 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22µF "
-			(at 233.172 139.954 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.9848 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 234.95 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67199742-2f46-4acf-9360-590f1a37bc7a")
-		)
-		(pin "2"
-			(uuid "6db56c37-e505-4710-a0d0-5a24cc40fac6")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 213.36 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33ab6e22-5421-4511-87aa-98f54ea7de6d")
-		(property "Reference" "#PWR029"
-			(at 213.36 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.36 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c8c3c24-82e1-497b-91cb-b058b1abd797")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-2V5")
-		(at 240.03 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37d2ec96-ccde-4d14-9d46-28df6d5d2b59")
-		(property "Reference" "#PWR034"
-			(at 236.22 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-2V5"
-			(at 246.126 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-2V5\""
-			(at 240.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64276b57-6004-4944-9a0b-a8564fa2086c")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 232.41 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c0619a4-067c-4f69-800d-89e0734b799d")
-		(property "Reference" "#PWR030"
-			(at 232.41 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 232.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c209ee1-2e3c-47e8-bc06-4390ab44a831")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
+			(uuid "ce2fa123-fe3a-4bb1-a946-14798c3b96f2")
 		)
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 74.93 31.75 90)
+		(at 140.97 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3973,7 +1372,7 @@
 		(fields_autoplaced yes)
 		(uuid "436e304a-5c80-4c98-b940-11ff23780fa5")
 		(property "Reference" "L1"
-			(at 74.93 26.67 90)
+			(at 140.97 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +1380,7 @@
 			)
 		)
 		(property "Value" "1µH"
-			(at 74.93 29.21 90)
+			(at 140.97 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +1388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 31.75 0)
+			(at 140.97 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +1397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 31.75 0)
+			(at 140.97 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +1406,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 74.93 31.75 0)
+			(at 140.97 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,10 +1415,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6eb3c3f7-fb21-452c-a69d-2908718b9b50")
+			(uuid "01d69220-aacb-4b28-8ad2-866333ac62dc")
 		)
 		(pin "2"
-			(uuid "fe663573-8041-40c2-8fba-9535e0eed5fa")
+			(uuid "aa16cbe4-63d0-4575-8341-172cc234ad41")
 		)
 		(instances
 			(project "PCBs"
@@ -4032,16 +1431,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 43.18 0)
+		(at 120.65 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4a7b8e2d-5933-49c9-a60d-ba21a676fd48")
 		(property "Reference" "C19"
-			(at 50.8 41.9099 0)
+			(at 116.84 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,7 +1448,7 @@
 			)
 		)
 		(property "Value" "10µF "
-			(at 50.8 44.4499 0)
+			(at 118.364 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +1457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.5752 46.99 0)
+			(at 121.6152 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +1466,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 43.18 0)
+			(at 120.65 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +1475,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 54.61 43.18 0)
+			(at 120.65 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,10 +1484,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1fbe4b4-dcff-4e6a-8586-ae30b4e5902c")
+			(uuid "acb254cd-88c7-43ff-811a-8a5ef18140bc")
 		)
 		(pin "2"
-			(uuid "72d33a78-288e-486b-87ef-bfefdef5fb79")
+			(uuid "c63919ae-1c39-4c4d-afd9-20962000cf2a")
 		)
 		(instances
 			(project "PCBs"
@@ -4102,7 +1500,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 59.69 0)
+		(at 175.26 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4111,7 +1509,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b80d3a0-87e4-4870-8df5-f67ce893c4ac")
 		(property "Reference" "#PWR014"
-			(at 109.22 66.04 0)
+			(at 175.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,7 +1518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 64.77 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +1526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 59.69 0)
+			(at 175.26 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +1535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 59.69 0)
+			(at 175.26 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +1544,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 59.69 0)
+			(at 175.26 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +1553,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "df2ee06a-33e9-436e-bf0d-05ff2208cfca")
+			(uuid "8aafb300-1941-4989-8abd-c5d5a3cd9106")
 		)
 		(instances
 			(project "PCBs"
@@ -4167,141 +1565,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 209.55 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cfdb9b2-3675-46d3-ab91-f79c90943ff9")
-		(property "Reference" "#PWR027"
-			(at 209.55 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.55 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4911a43c-3719-4321-bda7-9ade5d2624e9")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 208.28 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ddd1f5d-d610-4a49-9b67-4b4393a525d1")
-		(property "Reference" "C26"
-			(at 204.47 27.432 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1µF "
-			(at 206.248 27.432 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.3148 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 208.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f8c1207-9505-4936-a946-c3533781a83f")
-		)
-		(pin "2"
-			(uuid "5a121d9b-b2db-4643-9079-be0476675567")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "custom_lib:TPS61023DRLR")
-		(at 82.55 43.18 0)
+		(at 148.59 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4309,7 +1574,7 @@
 		(dnp no)
 		(uuid "4e82f2a7-df04-4536-9a86-8e89fc3ffbd8")
 		(property "Reference" "U6"
-			(at 74.93 51.816 0)
+			(at 140.97 107.696 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4317,7 +1582,7 @@
 			)
 		)
 		(property "Value" "TPS61023DRLR"
-			(at 74.93 54.356 0)
+			(at 140.97 110.236 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4325,7 +1590,7 @@
 			)
 		)
 		(property "Footprint" "DRL0006A"
-			(at 82.55 43.18 0)
+			(at 148.59 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +1600,7 @@
 			)
 		)
 		(property "Datasheet" "TPS61023DRLR"
-			(at 82.55 43.18 0)
+			(at 148.59 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +1610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 43.18 0)
+			(at 148.59 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,22 +1619,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "a1f63814-e1e7-423f-b577-4067b7475b29")
+			(uuid "2dfcd254-a3e5-4ee8-841f-6b80a14a25ea")
 		)
 		(pin "5"
-			(uuid "10ef0ce1-016d-4532-81f1-2688970c6821")
+			(uuid "ce64a096-2f70-41fd-8ac6-5d7f43a648b0")
 		)
 		(pin "2"
-			(uuid "a5cf8d01-1b97-4447-a0a1-922ab12ddaa0")
+			(uuid "aaf40134-b338-4b13-b684-d735f20cb5fb")
 		)
 		(pin "4"
-			(uuid "43207d89-aa3d-4dce-be6b-ab143a926240")
+			(uuid "4ecbcaec-c315-45c7-aea7-1fc41d8c162d")
 		)
 		(pin "6"
-			(uuid "41970a0e-9f63-44c9-9a34-4ba0a95b22c2")
+			(uuid "f45dfff5-0ab2-4ecf-bfca-cea4488cabfa")
 		)
 		(pin "1"
-			(uuid "30ecc4e1-925e-4c96-a1fd-cfae5da1fef0")
+			(uuid "207037ae-bd5a-4407-8503-8a61162da525")
 		)
 		(instances
 			(project "PCBs"
@@ -4381,484 +1646,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 201.93 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5747ac7c-4551-4bf5-acb3-d89e0cfa3ffb")
-		(property "Reference" "C22"
-			(at 198.12 112.522 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.01µF "
-			(at 200.406 111.506 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.9648 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 201.93 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57226321-88f2-401e-8cf9-fe63b2e4a39e")
-		)
-		(pin "2"
-			(uuid "a72e2ed2-a993-4880-aaf4-55a064079290")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom_lib:LM2664M6")
-		(at 220.98 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "681aa1a1-113b-41dc-b557-41e50330bb2c")
-		(property "Reference" "U5"
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2664M6"
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LM2664M6:SOT95P300X120-6N"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n1.8-V to 5.5-VIN switched capacitor voltage inverter\n"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "SOT-23-6"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LM2664M6"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-6 Texas Instruments"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "9779671"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM2664M6/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LM2664M6/NOPB"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" "NATIONAL SEMICONDUCTOR"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" "-"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM2664M6/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcddce0d-c10c-4f42-addb-c3cd621473c9")
-		)
-		(pin "2"
-			(uuid "5c2b76bb-4d58-4203-a7ed-9369350edd8e")
-		)
-		(pin "3"
-			(uuid "222d7047-3c96-4cc6-8554-e704f929c061")
-		)
-		(pin "4"
-			(uuid "b52fd0e7-2baa-442e-be17-e74c8db40707")
-		)
-		(pin "5"
-			(uuid "f0ff34c8-c4a1-4dee-a18e-4467dc64dfa6")
-		)
-		(pin "6"
-			(uuid "58256f4d-faa5-44c6-a7ce-aa69fba7aea2")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at -48.26 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b54f827-c914-461c-bb0e-516460767d73")
-		(property "Reference" "#PWR08"
-			(at -48.26 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at -48.26 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -48.26 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -48.26 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at -48.26 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb65bd5c-81ae-4357-b47d-2c445c16e4cf")
-		)
-		(instances
-			(project ""
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 200.66 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90737f4b-c653-4e2e-9202-529debe8cd77")
-		(property "Reference" "C18"
-			(at 196.85 70.612 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3µF "
-			(at 198.628 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.6948 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "940d4f1b-fa20-4847-8b89-7f8b0f9d2f4d")
-		)
-		(pin "2"
-			(uuid "a3dd035d-cfc2-4d10-b5d2-6c90ba9b7e24")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 238.76 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a1cef6f-59ca-4a08-960c-e284b0d382a9")
-		(property "Reference" "#PWR033"
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 242.316 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 238.76 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b3842e0-49f4-4df6-97c8-b866d45e3afa")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 90.17 54.61 0)
+		(at 156.21 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4866,7 +1655,7 @@
 		(dnp no)
 		(uuid "a0c83d7f-1306-4317-bff8-7eced5cd8115")
 		(property "Reference" "R5"
-			(at 92.71 53.3399 0)
+			(at 158.75 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +1664,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 91.44 55.88 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +1673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.392 54.61 90)
+			(at 154.432 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,7 +1682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 54.61 0)
+			(at 156.21 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +1691,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 54.61 0)
+			(at 156.21 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,10 +1700,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e243402-d483-4382-a17d-72b862574552")
+			(uuid "b9c01b7c-bda1-4a22-a6f3-daf8b319f164")
 		)
 		(pin "2"
-			(uuid "52244b04-f280-4b8a-8ef2-a5aed78dcb79")
+			(uuid "595642c6-3e34-4fe7-9d18-471764ced29e")
 		)
 		(instances
 			(project "PCBs"
@@ -4926,75 +1715,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 195.58 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a47fb4da-3bcc-49e9-8b2f-15f68850bd69")
-		(property "Reference" "#PWR020"
-			(at 199.39 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 191.77 135.8899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ba11669-6396-448d-bf9e-19433a03bf72")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 90.17 46.99 0)
+		(at 156.21 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5002,7 +1724,7 @@
 		(dnp no)
 		(uuid "a58b0688-f4e2-4738-a5cd-376727c3d286")
 		(property "Reference" "R4"
-			(at 92.71 45.7199 0)
+			(at 158.75 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +1733,7 @@
 			)
 		)
 		(property "Value" "732kΩ"
-			(at 91.44 48.26 0)
+			(at 157.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +1742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.392 46.99 90)
+			(at 154.432 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +1751,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 46.99 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +1760,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 46.99 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,10 +1769,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b091488-2835-4d21-a277-32826120300d")
+			(uuid "e998aeee-533e-4a27-89a3-8025dbf5f3bf")
 		)
 		(pin "2"
-			(uuid "4f0405c5-99a3-4da7-9984-2e3ddba0fc2c")
+			(uuid "63d54d2a-7b00-44eb-9674-5a56530adc84")
 		)
 		(instances
 			(project "PCBs"
@@ -5062,774 +1784,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-5V")
-		(at 241.3 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aed0d699-3c5d-4f7c-9792-8ebea43a0c2e")
-		(property "Reference" "#PWR035"
-			(at 237.49 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 245.11 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 241.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "675d3258-7790-410b-8b7f-03a4998a502c")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 237.49 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1ad3e61-8b0c-4770-addb-dfda4a9db15b")
-		(property "Reference" "#PWR032"
-			(at 233.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 243.332 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 237.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9eb26ce-1a0d-4576-8490-8c3f5504cd84")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 205.74 46.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb26ae7b-907a-4f7f-9c1a-38b28ceedb52")
-		(property "Reference" "C25"
-			(at 201.93 42.672 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.01µF "
-			(at 204.216 41.656 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.7748 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "995e5eef-3952-4974-9e47-b0d5fd6f90e5")
-		)
-		(pin "2"
-			(uuid "09cfc34b-55ac-43db-b510-07eb577a84e8")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 201.93 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbf20166-ceae-4079-9a17-c10dc808914e")
-		(property "Reference" "C23"
-			(at 198.12 143.002 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.01µF "
-			(at 200.406 141.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.9648 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 201.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e17141b-5189-4735-85b5-0bbda5596fc8")
-		)
-		(pin "2"
-			(uuid "0ae9ab69-72e3-4462-b2f5-9009364d8e15")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5bd57a7-4c08-46e1-b7c7-53c9b9d92f84")
-		(property "Reference" "#PWR025"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1412f09d-40e1-40e8-8633-ed12f2c72afe")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom_lib:TPS73225DBVR")
-		(at 231.14 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cae1cd74-a924-4055-9d91-e07cc44bf5ed")
-		(property "Reference" "U9"
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS73225DBVR"
-			(at 224.79 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS73225DBVR:SOT95P280X145-5N"
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n250-mA, high-accuracy, ultra-low-dropout voltage regulator with reverse current protection & enable\n"
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-5 Texas Instruments"
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS73225DBVR/Texas+Instruments/view-part/?ref=snap"
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TPS73225DBVR"
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1237159&manufacturer=Texas Instruments&part_name=TPS73225DBVR&search_term=None"
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS73225DBVR/Texas+Instruments/view-part/?ref=eda"
-			(at 231.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1fc5f687-5f48-40a5-a279-9f52e22d4e23")
-		)
-		(pin "5"
-			(uuid "8cf523fa-242e-4e60-8c42-f9b126bcd22a")
-		)
-		(pin "4"
-			(uuid "92f5d8b9-312d-41d3-b57c-606bc61a005b")
-		)
-		(pin "2"
-			(uuid "f9decc87-40eb-41c4-affd-efa5f6bea5c9")
-		)
-		(pin "1"
-			(uuid "0f4135ba-ece8-4fe2-a8df-72029a01a65b")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 232.41 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7045d70-8c04-4038-bf72-e92d6aa91548")
-		(property "Reference" "C27"
-			(at 227.076 74.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3µF "
-			(at 228.854 74.422 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.4448 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 232.41 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0050b0f7-57a8-40fe-bb65-297473627357")
-		)
-		(pin "2"
-			(uuid "2b4eb1e9-9d2d-4b56-9d2c-c255d8d88776")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 208.28 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da1280c2-ba10-42fb-82a5-1f78670d1812")
-		(property "Reference" "#PWR026"
-			(at 208.28 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10928733-0f47-471d-8b44-dee2f25963d5")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 209.55 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daeb6ffa-d616-4305-a9a8-a7b4addc32f7")
-		(property "Reference" "#PWR028"
-			(at 209.55 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.55 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5122f6af-3245-4201-9aa7-9c75c80bcd5f")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 195.58 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e496669d-4357-4b9e-ad63-1d5db1096281")
-		(property "Reference" "#PWR019"
-			(at 199.39 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 191.77 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 195.58 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "797fc44f-955a-4612-85b5-d9ca0752e0a4")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 115.57 50.8 180)
+		(at 181.61 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5838,7 +1794,7 @@
 		(fields_autoplaced yes)
 		(uuid "e62d2624-70f0-4d8e-8fb6-f5e3ad24c420")
 		(property "Reference" "C21"
-			(at 119.38 49.5299 0)
+			(at 185.42 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,7 +1803,7 @@
 			)
 		)
 		(property "Value" "22µF "
-			(at 119.38 52.0699 0)
+			(at 185.42 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5856,7 +1812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.6048 46.99 0)
+			(at 180.6448 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5865,7 +1821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 50.8 0)
+			(at 181.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,7 +1830,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 115.57 50.8 0)
+			(at 181.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,10 +1839,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "27ee1c47-d01d-4bc9-af0b-a4d4944327df")
+			(uuid "4febc6f9-38f8-43be-9ba4-89dbc6989c68")
 		)
 		(pin "2"
-			(uuid "ad7c1419-8d23-47a9-a6a3-5294f6843938")
+			(uuid "4def99e5-27e2-4b92-8a8b-fd97983004e7")
 		)
 		(instances
 			(project "PCBs"
@@ -5898,225 +1854,8 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:TPS72325DBVT")
-		(at 227.33 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e70420b7-45c9-40af-a216-1d5d31940465")
-		(property "Reference" "U8"
-			(at 220.726 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS72325DBVT"
-			(at 220.726 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS72325DBVT:SOT95P280X145-5N"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n200-mA, negative, adjustable low-dropout voltage regulator with enable\n"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "SOT-23-5"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPS72325DBVT"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-5 Texas Instruments"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "-"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS72325DBVT/Texas+Instruments/view-part/?ref=snap"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TPS72325DBVT"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=46470&manufacturer=Texas Instruments&part_name=TPS72325DBVT&search_term=tps72325dbvt"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" "Texas Instruments"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" "87H2933"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS72325DBVT/Texas+Instruments/view-part/?ref=eda"
-			(at 227.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "9aef789b-e17e-49da-ad42-433a85634344")
-		)
-		(pin "2"
-			(uuid "87fb6c6f-e602-4ef6-b582-2205db62c40f")
-		)
-		(pin "3"
-			(uuid "7ec9c9a3-08a7-4c26-bc7f-9a8185a36f6c")
-		)
-		(pin "4"
-			(uuid "cb409ee5-4828-4998-8f9d-61f2174ad079")
-		)
-		(pin "1"
-			(uuid "4cd1d4ec-6000-4417-9748-37e8c7d38a39")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 60.96 49.53 0)
+		(at 127 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6125,7 +1864,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecf4dbde-5b39-4353-a451-8b186f05ca7f")
 		(property "Reference" "#PWR013"
-			(at 60.96 55.88 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +1873,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 54.61 0)
+			(at 127 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +1881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 49.53 0)
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +1890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 49.53 0)
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +1899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 49.53 0)
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,78 +1908,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6cbe482-4edd-4145-b3a3-febc64ccc6aa")
+			(uuid "ca7beb7b-0d18-49fd-90f8-8dbcddf3fe3f")
 		)
 		(instances
 			(project "PCBs"
 				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff820b70-cec2-42cf-a819-b39780f5a14a")
-		(property "Reference" "#PWR031"
-			(at 234.95 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cab3515-d6aa-485d-9556-30025ad872bc")
-		)
-		(instances
-			(project "PCBs"
-				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def/6d5ad75c-c330-4d6a-be03-dea6fa9a702b"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
