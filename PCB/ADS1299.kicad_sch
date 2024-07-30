@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "e7be5b0a-702d-4141-a4fc-8b593ba6526f")
+	(uuid "4d9ad66f-bc3a-4330-bc31-d7fa98422029")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -8755,7 +8755,7 @@
 		(dnp no)
 		(uuid "1b44a257-72d2-45aa-bf54-9f1a38a2557c")
 		(property "Reference" "C13"
-			(at 223.266 121.92 0)
+			(at 222.758 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8763,7 +8763,7 @@
 			)
 		)
 		(property "Value" "100µF "
-			(at 223.266 119.888 0)
+			(at 223.266 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10829,7 +10829,7 @@
 		(dnp no)
 		(uuid "9feaccfa-1650-464e-be51-33845c20888f")
 		(property "Reference" "C12"
-			(at 214.884 121.92 0)
+			(at 215.138 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10837,7 +10837,7 @@
 			)
 		)
 		(property "Value" "1µF "
-			(at 214.884 119.888 0)
+			(at 215.646 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
