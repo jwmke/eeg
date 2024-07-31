@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "31fea1f5-6eb1-44ac-ada3-4fbf1d1f2af0")
+	(uuid "5958bff2-9131-4158-ad7a-ce505af15a00")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -8144,7 +8144,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 179.3748 120.65 0)
 			(effects
 				(font
@@ -8770,7 +8770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 227.0252 128.27 0)
 			(effects
 				(font
@@ -8971,7 +8971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.9648 120.65 0)
 			(effects
 				(font
@@ -9629,7 +9629,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 134.3152 40.64 0)
 			(effects
 				(font
@@ -10086,7 +10086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 133.0452 80.01 0)
 			(effects
 				(font
@@ -11674,7 +11674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 120.3452 40.64 0)
 			(effects
 				(font
@@ -11741,7 +11741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 106.3752 40.64 0)
 			(effects
 				(font
@@ -12108,7 +12108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.2852 40.64 0)
 			(effects
 				(font
