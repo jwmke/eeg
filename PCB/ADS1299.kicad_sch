@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "5958bff2-9131-4158-ad7a-ce505af15a00")
+	(uuid "25b8433c-5e56-4c50-868a-7ffb2e564885")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -7727,7 +7727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAY16-103J4LF:RESCAF80P320X160X60-8N"
+		(property "Footprint" "CustomLib:CAT16A203J4LF"
 			(at 119.38 158.75 0)
 			(effects
 				(font
@@ -7958,7 +7958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "W2A41C681KAT2A:CAPCAXE50P210X130X94-8N"
+		(property "Footprint" "CustomLib:W3A41C102MAT2A"
 			(at 64.77 118.11 0)
 			(effects
 				(font
@@ -8518,7 +8518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "W2A41C681KAT2A:CAPCAXE50P210X130X94-8N"
+		(property "Footprint" "CustomLib:W3A41C102MAT2A"
 			(at 138.43 176.53 0)
 			(effects
 				(font
@@ -9377,7 +9377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "W2A41C681KAT2A:CAPCAXE50P210X130X94-8N"
+		(property "Footprint" "CustomLib:W3A41C102MAT2A"
 			(at 64.77 176.53 0)
 			(effects
 				(font
@@ -9767,7 +9767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "W2A41C681KAT2A:CAPCAXE50P210X130X94-8N"
+		(property "Footprint" "CustomLib:W3A41C102MAT2A"
 			(at 64.77 59.69 0)
 			(effects
 				(font
@@ -10617,7 +10617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAY16-103J4LF:RESCAF80P320X160X60-8N"
+		(property "Footprint" "CustomLib:CAT16A203J4LF"
 			(at 45.72 158.75 0)
 			(effects
 				(font
@@ -11111,7 +11111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAY16-103J4LF:RESCAF80P320X160X60-8N"
+		(property "Footprint" "CustomLib:CAT16A203J4LF"
 			(at 45.72 100.33 0)
 			(effects
 				(font
@@ -12857,7 +12857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAY16-103J4LF:RESCAF80P320X160X60-8N"
+		(property "Footprint" "CustomLib:CAT16A203J4LF"
 			(at 45.72 41.91 0)
 			(effects
 				(font
