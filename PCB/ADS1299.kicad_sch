@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "4d9ad66f-bc3a-4330-bc31-d7fa98422029")
+	(uuid "6be70cb1-384a-4f07-bcf2-6d8eb643858b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -9696,7 +9696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 98.7552 40.64 0)
 			(effects
 				(font
@@ -10350,7 +10350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 207.3148 120.65 0)
 			(effects
 				(font
@@ -10548,7 +10548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 112.7252 40.64 0)
 			(effects
 				(font
@@ -10844,7 +10844,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 218.1352 128.27 0)
 			(effects
 				(font
@@ -11338,7 +11338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.53 26.3652 0)
 			(effects
 				(font
@@ -11808,7 +11808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 140.6652 40.64 0)
 			(effects
 				(font
@@ -12241,7 +12241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 126.6952 40.64 0)
 			(effects
 				(font
@@ -12375,7 +12375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PAG64_TEX"
+		(property "Footprint" "CustomLib:PAG64_TEX"
 			(at 202.692 74.676 0)
 			(effects
 				(font
@@ -13084,7 +13084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 195.2752 128.27 0)
 			(effects
 				(font

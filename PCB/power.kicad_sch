@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "ecf68d6a-33dc-45f7-a638-f95172869262")
+	(uuid "a3e9f642-a35e-494e-9d1e-d8bc847aea86")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1261,7 +1261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 169.2148 102.87 0)
 			(effects
 				(font
@@ -1395,7 +1395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomLib:IND_74438357010_WRE"
 			(at 140.97 87.63 0)
 			(effects
 				(font
@@ -1597,7 +1597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRL0006A"
+		(property "Footprint" ""
 			(at 148.59 99.06 0)
 			(effects
 				(font
@@ -1819,7 +1819,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 180.6448 102.87 0)
 			(effects
 				(font
