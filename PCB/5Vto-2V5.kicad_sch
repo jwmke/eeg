@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "d4303cfc-6f0c-4d6b-9480-ac521b3ebee8")
+	(uuid "6c2ac2c0-a0c8-40aa-8002-854c02facc0c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1205,7 +1205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 171.7548 97.79 0)
 			(effects
 				(font
