@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "498017ea-c88c-4ae9-a086-d6c3cb1d3412")
+	(uuid "220a61e3-3621-49e9-a07b-f2674ff6e465")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -8355,7 +8355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPD4E1B06DCKR:SOT65P210X110-6N"
+		(property "Footprint" "CustomLib:tpd4e1b06dckr"
 			(at 112.522 145.034 0)
 			(effects
 				(font
@@ -11953,7 +11953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPD4E1B06DCKR:SOT65P210X110-6N"
+		(property "Footprint" "CustomLib:tpd4e1b06dckr"
 			(at 135.382 145.034 0)
 			(effects
 				(font
@@ -12699,7 +12699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPD4E1B06DCKR:SOT65P210X110-6N"
+		(property "Footprint" "CustomLib:tpd4e1b06dckr"
 			(at 122.682 113.284 0)
 			(effects
 				(font

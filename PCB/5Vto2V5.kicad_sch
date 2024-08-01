@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "bdc9238e-a8c7-4948-a197-916848bd3b4b")
+	(uuid "f319a355-4e6d-4764-b585-c99b43d51fcc")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1288,7 +1288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS73225DBVR:SOT95P280X145-5N"
+		(property "Footprint" "CustomLib:73225"
 			(at 167.64 106.68 0)
 			(effects
 				(font
