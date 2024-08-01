@@ -2877,7 +2877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 71.12 57.15 0)
 			(effects
 				(font
@@ -2945,7 +2945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 166.37 93.98 0)
 			(effects
 				(font

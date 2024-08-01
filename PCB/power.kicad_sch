@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "3a11650a-b9d3-4be3-80c3-f738a236ca14")
+	(uuid "916c0753-cbde-444c-aada-cc4412b57275")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1597,7 +1597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomLib:SOTFL50P160X60-6N"
 			(at 148.59 99.06 0)
 			(effects
 				(font

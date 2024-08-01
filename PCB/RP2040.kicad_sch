@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "ef51ead5-2669-43e2-90c4-a47ecf8eee07")
+	(uuid "4054a6b5-c77a-4369-8cf9-fe08f5f4a958")
 	(paper "A4")
 	(lib_symbols
 		(symbol "custom_lib:pi_pico"
@@ -1391,7 +1391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:Raspberry_pi_pico"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical_SMD"
 			(at 166.37 128.27 0)
 			(effects
 				(font
