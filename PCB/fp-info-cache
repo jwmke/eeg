@@ -1,4 +1,4 @@
-23657578979771602
+23661024150532066
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54690,6 +54690,20 @@ Capacitor Network
 0
 8
 8
+CustomLib
+brain
+
+
+0
+0
+0
+CustomLib
+brain2
+
+
+0
+0
+0
 CustomLib
 lm266
 
