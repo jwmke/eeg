@@ -3118,7 +3118,7 @@
 			(uuid "c9bf50e0-eaf2-4745-a026-30e35f7eb71a")
 		)
 		(instances
-			(project "PCBs"
+			(project "v2"
 				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
 					(page "8")
 				)
@@ -3186,7 +3186,7 @@
 			(uuid "b896a362-30e5-4679-b722-f28d8963dbca")
 		)
 		(instances
-			(project "PCBs"
+			(project "v2"
 				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
 					(page "6")
 				)
@@ -3434,7 +3434,7 @@
 			(uuid "05c2e519-02f1-4987-b30e-fddf863a4290")
 		)
 		(instances
-			(project "PCBs"
+			(project "v2"
 				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
 					(page "7")
 				)
@@ -3502,7 +3502,7 @@
 			(uuid "5fe927d4-632d-47fd-b56d-9ebcb0e471ec")
 		)
 		(instances
-			(project "PCBs"
+			(project "v2"
 				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
 					(page "4")
 				)
@@ -3579,7 +3579,7 @@
 			(uuid "803e968d-e96a-44a4-98fc-ac4fee3ebe47")
 		)
 		(instances
-			(project "PCBs"
+			(project "v2"
 				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
 					(page "2")
 				)
@@ -3647,7 +3647,7 @@
 			(uuid "3a48e6d1-3c6b-42b3-8120-e1fdc6ed8bfc")
 		)
 		(instances
-			(project "PCBs"
+			(project "v2"
 				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
 					(page "3")
 				)
@@ -3715,7 +3715,7 @@
 			(uuid "40b34bf7-5b14-4fa2-b449-33cf59c39bcc")
 		)
 		(instances
-			(project "PCBs"
+			(project "v2"
 				(path "/5beccadf-d27e-4f5e-8faf-404ef06d8def"
 					(page "5")
 				)

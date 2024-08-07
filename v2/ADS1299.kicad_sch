@@ -2962,7 +2962,7 @@
 		(uuid "027736b8-c8a0-4065-ac79-dfd5a6415a56")
 	)
 	(junction
-		(at 175.26 34.29)
+		(at 170.18 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08229fba-27c1-4620-8cda-f4661586b792")
@@ -3088,7 +3088,7 @@
 		(uuid "339d7cb7-50a6-4fdd-b309-af334f0d72b8")
 	)
 	(junction
-		(at 185.42 34.29)
+		(at 180.34 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "438c21bf-a370-4bc2-bfa8-9b763d5ea24f")
@@ -3340,12 +3340,6 @@
 		(uuid "b39646f9-ae36-433a-ad30-bda0fc79d587")
 	)
 	(junction
-		(at 175.26 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b44b77a3-c264-491f-bc00-2fbb1c9954e7")
-	)
-	(junction
 		(at 67.31 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3470,6 +3464,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe3d8818-a5bb-4d76-87d6-d31c999508d5")
+	)
+	(no_connect
+		(at 185.42 38.1)
+		(uuid "8f971df0-b2b1-4d09-b6fb-b79a397ec1f1")
 	)
 	(wire
 		(pts
@@ -3643,7 +3641,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 25.4) (xy 176.53 25.4)
+			(xy 170.18 25.4) (xy 171.45 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3733,7 +3731,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 25.4) (xy 184.15 25.4)
+			(xy 180.34 25.4) (xy 179.07 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4213,7 +4211,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 25.4) (xy 185.42 34.29)
+			(xy 180.34 25.4) (xy 180.34 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4643,7 +4641,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 34.29) (xy 185.42 38.1)
+			(xy 180.34 34.29) (xy 180.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4993,7 +4991,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 25.4) (xy 175.26 34.29)
+			(xy 170.18 25.4) (xy 170.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5213,7 +5211,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 38.1) (xy 175.26 38.1)
+			(xy 165.1 38.1) (xy 170.18 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5320,16 +5318,6 @@
 			(type default)
 		)
 		(uuid "9f8c3ba8-ec51-4c69-8cb9-b0f5b54c1849")
-	)
-	(wire
-		(pts
-			(xy 175.26 38.1) (xy 180.34 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0c2da7a-4006-4efa-9a38-74400e99fcca")
 	)
 	(wire
 		(pts
@@ -5643,7 +5631,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 34.29) (xy 184.15 34.29)
+			(xy 180.34 34.29) (xy 179.07 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5683,7 +5671,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 34.29) (xy 176.53 34.29)
+			(xy 170.18 34.29) (xy 171.45 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6003,7 +5991,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 34.29) (xy 175.26 38.1)
+			(xy 170.18 34.29) (xy 170.18 38.1)
 		)
 		(stroke
 			(width 0)
@@ -11154,7 +11142,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 180.34 25.4 270)
+		(at 175.26 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11162,7 +11150,7 @@
 		(dnp no)
 		(uuid "b93b5dd6-8eb1-48e7-9554-a67c70bce08b")
 		(property "Reference" "C1"
-			(at 180.34 19.558 90)
+			(at 175.26 19.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,7 +11158,7 @@
 			)
 		)
 		(property "Value" "1.5nF"
-			(at 180.34 21.844 90)
+			(at 175.26 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11178,7 +11166,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 176.53 26.3652 0)
+			(at 171.45 26.3652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11187,7 +11175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 25.4 0)
+			(at 175.26 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11196,7 +11184,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 180.34 25.4 0)
+			(at 175.26 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11290,7 +11278,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 34.29 270)
+		(at 175.26 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11298,7 +11286,7 @@
 		(dnp no)
 		(uuid "bf9517d7-2d26-4dce-8fdd-e4d49cd2a48d")
 		(property "Reference" "R1"
-			(at 180.34 29.972 90)
+			(at 175.26 29.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11306,7 +11294,7 @@
 			)
 		)
 		(property "Value" "1MΩ"
-			(at 180.34 31.75 90)
+			(at 175.26 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11314,7 +11302,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 180.34 32.512 90)
+			(at 175.26 32.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,7 +11311,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 34.29 0)
+			(at 175.26 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,7 +11320,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 180.34 34.29 0)
+			(at 175.26 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
