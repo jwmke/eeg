@@ -7424,7 +7424,7 @@
 		)
 		(uuid "82c2f5d1-cad3-4e44-b93d-9f3d513503f8")
 	)
-	(hierarchical_label "Bias"
+	(hierarchical_label "BI"
 		(shape input)
 		(at 100.33 71.12 180)
 		(fields_autoplaced yes)
