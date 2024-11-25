@@ -1481,7 +1481,7 @@
 				)
 			)
 		)
-		(property "Value" "10µF "
+		(property "Value" "10µF"
 			(at 167.386 111.252 0)
 			(effects
 				(font
@@ -1548,7 +1548,7 @@
 				)
 			)
 		)
-		(property "Value" "10µF "
+		(property "Value" "10µF"
 			(at 125.476 110.744 0)
 			(effects
 				(font

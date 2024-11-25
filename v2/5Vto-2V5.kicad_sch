@@ -1197,7 +1197,7 @@
 				)
 			)
 		)
-		(property "Value" "22µF "
+		(property "Value" "22µF"
 			(at 167.894 102.362 0)
 			(effects
 				(font
@@ -1264,7 +1264,7 @@
 				)
 			)
 		)
-		(property "Value" "0.01µF "
+		(property "Value" "0.01µF"
 			(at 130.81 103.378 0)
 			(effects
 				(font

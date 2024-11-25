@@ -7905,7 +7905,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF "
+		(property "Value" "0.1µF"
 			(at 177.8 121.92 0)
 			(effects
 				(font
@@ -8341,7 +8341,7 @@
 				)
 			)
 		)
-		(property "Value" "100µF "
+		(property "Value" "100µF"
 			(at 223.266 122.174 0)
 			(effects
 				(font
@@ -8797,7 +8797,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF "
+		(property "Value" "0.1µF"
 			(at 199.39 121.92 0)
 			(effects
 				(font
@@ -8924,7 +8924,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3b9d4480-0c67-4965-aca8-e8bc02824a2a")
 		(property "Reference" "CN3"
 			(at 76.2 58.4199 90)
@@ -8936,7 +8935,7 @@
 			)
 		)
 		(property "Value" "W2A41C681KAT2A"
-			(at 76.2 60.9599 90)
+			(at 76.2 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9642,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF "
+		(property "Value" "0.1µF"
 			(at 130.81 34.29 0)
 			(effects
 				(font
@@ -9710,7 +9709,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF "
+		(property "Value" "1µF"
 			(at 95.758 34.29 0)
 			(effects
 				(font
@@ -10108,7 +10107,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF "
+		(property "Value" "1µF"
 			(at 206.502 121.92 0)
 			(effects
 				(font
@@ -10306,7 +10305,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF "
+		(property "Value" "1µF"
 			(at 109.728 34.29 0)
 			(effects
 				(font
@@ -10791,7 +10790,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF "
+		(property "Value" "1µF"
 			(at 215.646 122.174 0)
 			(effects
 				(font
@@ -11554,7 +11553,7 @@
 				)
 			)
 		)
-		(property "Value" "10µF "
+		(property "Value" "10µF"
 			(at 184.404 121.92 0)
 			(effects
 				(font
@@ -11621,7 +11620,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF "
+		(property "Value" "0.1µF"
 			(at 116.84 34.29 0)
 			(effects
 				(font
@@ -11688,7 +11687,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF "
+		(property "Value" "0.1µF"
 			(at 102.87 34.29 0)
 			(effects
 				(font
@@ -11755,7 +11754,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF "
+		(property "Value" "1µF"
 			(at 137.668 34.29 0)
 			(effects
 				(font
@@ -12055,7 +12054,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF "
+		(property "Value" "0.1µF"
 			(at 144.78 34.29 0)
 			(effects
 				(font
@@ -12188,7 +12187,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF "
+		(property "Value" "1µF"
 			(at 123.698 34.29 0)
 			(effects
 				(font
@@ -13031,7 +13030,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF "
+		(property "Value" "1µF"
 			(at 192.532 121.92 0)
 			(effects
 				(font
