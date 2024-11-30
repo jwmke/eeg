@@ -3,6 +3,7 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 from collections import deque
+import time
 
 # Connect to Pico W
 PICO_IP = '192.168.42.117'
@@ -18,8 +19,11 @@ plt.ion()
 fig, axs = plt.subplots(8, 1, figsize=(10, 12))
 fig.suptitle('EEG Channels')
 
+# Modify these in your plot_data.py
+BUFFER_SIZE = 100  # Reduced from 500
+UPDATE_INTERVAL = 0.1  # Update every 100ms
+
 # Buffer for each channel
-BUFFER_SIZE = 500
 buffers = [deque([0]*BUFFER_SIZE, maxlen=BUFFER_SIZE) for _ in range(8)]
 lines = []
 
@@ -29,10 +33,9 @@ for i, ax in enumerate(axs):
     lines.append(line)
     ax.set_ylabel(f'Ch{i+1} (µV)')
     ax.grid(True)
-    ax.set_ylim(-100, 100)
+    ax.set_ylim(-500, 500)  # Increased range
 
-axs[-1].set_xlabel('Samples')
-plt.tight_layout()
+last_update = time.time()
 
 try:
     sock = connect_to_pico()
@@ -42,20 +45,27 @@ try:
         data = sock.recv(1024).decode()
         buffer += data
         
+        current_time = time.time()
+        
         while '\n' in buffer:
             line, buffer = buffer.split('\n', 1)
             try:
                 data_dict = json.loads(line)
                 channel_data = data_dict['channels']
                 
-                # Update buffers and plot
+                # Update buffers
                 for i, value in enumerate(channel_data):
                     buffers[i].append(value)
-                    lines[i].set_ydata(list(buffers[i]))
                 
-                fig.canvas.draw()
-                fig.canvas.flush_events()
-                
+                # Only update plot periodically
+                if current_time - last_update > UPDATE_INTERVAL:
+                    for i in range(8):
+                        lines[i].set_ydata(list(buffers[i]))
+                    
+                    fig.canvas.draw()
+                    fig.canvas.flush_events()
+                    last_update = current_time
+                    
             except json.JSONDecodeError:
                 continue
             
