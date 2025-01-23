@@ -36,12 +36,20 @@
 
 ![image](https://github.com/user-attachments/assets/390a372e-a838-4f77-870a-e818f4891f6f)
 
-## Layout (Top, Bottom, Ground, -2.5V)
+## Layout
+
+Top
 
 ![image](https://github.com/user-attachments/assets/80041890-a3dc-42fe-8db9-fd0bfd1d4769)
 
+Bottom
+
 ![image](https://github.com/user-attachments/assets/e9177a21-83ea-44e6-ae28-dec9ab12bd8a)
 
+Ground
+
 ![image](https://github.com/user-attachments/assets/2c11d5c2-dc31-4e52-be85-cb2173332824)
+
+AVSS/-2.5V
 
 ![image](https://github.com/user-attachments/assets/47b8ce07-fdc6-4df2-93f3-ab50272ebdfa)
