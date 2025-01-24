@@ -1,4 +1,4 @@
-# ADS 1299 Affordable EEG PCB
+# Open-Source Affordable EEG PCB
 
 ### An 8-channel EEG Pi Pico W shield, based off of OpenBCI's [Cyton Biosensing Board](https://shop.openbci.com/products/cyton-biosensing-board-8-channel), for 1/10th the price.
 
