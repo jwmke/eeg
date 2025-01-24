@@ -4,6 +4,8 @@
 
 ![image](https://github.com/user-attachments/assets/7f82fe20-6b87-4119-bc05-a45672c2349d)
 
+The heart of this PCB is a Texas Instrument's [ADS1299](https://www.ti.com/product/ADS1299), a low noise, 8-Channel, Analog-to-Digital Converter.
+
 ## Instructions
 1. Update your SSID and PASSWORD in the pico/main.py file
 2. Upload the main.py to the Pi Pico W
